@@ -43,8 +43,7 @@ else {
 }
 }
 hobbeis();
-
-
+function sports() {
 let  sports= confirm('do you like football')
 if (sports=== true) {
     console.log(yes);
@@ -52,6 +51,8 @@ if (sports=== true) {
 else {
     console.log(no)
 }
+}
+sports();
 
 let color= confirm('do you love color red')
 if (color=== true) {
