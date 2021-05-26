@@ -32,6 +32,7 @@ else {
  }
  favuriteDish();
 
+function hobbeis() {
 
 let hobbeis= confirm('do you love dancing')
 if (hobbeis=== true) {
@@ -40,6 +41,8 @@ if (hobbeis=== true) {
 else {
     console.log(no)
 }
+}
+hobbeis();
 
 
 let  sports= confirm('do you like football')
