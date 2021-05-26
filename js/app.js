@@ -10,7 +10,7 @@ let Name= prompt('whats your name')
 console.log(Name);
 
 
-
+function feeling() {
 let feeling= confirm('are you good')
 if (feeling === true) {
     console.log(yes);
@@ -18,6 +18,8 @@ if (feeling === true) {
 else {
     console.log(no)
 }
+}
+feeling()
 
 let favuriteDish= confirm('do you love MANSAF')
 if (favuriteDish=== true) {
@@ -34,6 +36,7 @@ if (hobbeis=== true) {
 else {
     console.log(no)
 }
+
 
 let  sports= confirm('do you like football')
 if (sports=== true) {
