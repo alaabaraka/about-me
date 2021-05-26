@@ -1,8 +1,8 @@
 'use strict';
 
-console.log('wellcome to my web siet')
+console.log('wellcome to my web siet');
 
-let Name= prompt('whats your name')
+let Name= prompt('whats your name');
 
 
 
@@ -10,15 +10,18 @@ let Name= prompt('whats your name')
 console.log(Name);
 
 
-
-let feeling= confirm('are you good')
+function feeling() {
+let feeling= confirm('are you good');
 if (feeling === true) {
     console.log(yes);
 }
 else {
-    console.log(no)
+    console.log(no);
 }
+}
+feeling();
 
+ function favuriteDish() {
 let favuriteDish= confirm('do you love MANSAF')
 if (favuriteDish=== true) {
     console.log(yes);
@@ -26,6 +29,10 @@ if (favuriteDish=== true) {
 else {
     console.log(no)
 }
+ }
+ favuriteDish();
+
+function hobbeis() {
 
 let hobbeis= confirm('do you love dancing')
 if (hobbeis=== true) {
@@ -34,7 +41,9 @@ if (hobbeis=== true) {
 else {
     console.log(no)
 }
-
+}
+hobbeis();
+function sports() {
 let  sports= confirm('do you like football')
 if (sports=== true) {
     console.log(yes);
@@ -42,7 +51,10 @@ if (sports=== true) {
 else {
     console.log(no)
 }
+}
+sports();
 
+function color() {
 let color= confirm('do you love color red')
 if (color=== true) {
     console.log(yes);
@@ -50,7 +62,8 @@ if (color=== true) {
 else {
     console.log(no)
 }
-
+}
+color();
 
 let Name= prompt('whats your name')
 
@@ -61,4 +74,4 @@ console.log(Name);
 
 
 
-
+*/
