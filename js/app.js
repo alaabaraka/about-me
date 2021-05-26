@@ -54,6 +54,7 @@ else {
 }
 sports();
 
+function color() {
 let color= confirm('do you love color red')
 if (color=== true) {
     console.log(yes);
@@ -61,7 +62,8 @@ if (color=== true) {
 else {
     console.log(no)
 }
-
+}
+color();
 
 let Name= prompt('whats your name')
 
